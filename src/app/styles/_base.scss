@@ -1,12 +1,28 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
 body {
-  padding: 50px;
+  background: #303030;
+  color: #fff;
   font: 20px/150% "Helvetica Neue", "Lucida Grande", Verdana, sans-serif;
-  color: #666;
-  background: #fcfcfc;
 }
 
-input,
-textarea,
-button {
-  font: inherit;
+h1 {
+  display: inline-block;
+  height: 60px;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -30px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 200px;
+
+  strong {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
 }

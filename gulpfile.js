@@ -160,7 +160,8 @@ gulp.task('deploy', function(){
     onStdout: function( data ) {
       console.log( data.toString() );
     }
-  }, function(error, stdout, stderr, cmd){
+  //}, function(error, stdout, stderr, cmd){
+  }, function(){
     console.log('END!');
   });
 });
