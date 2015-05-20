@@ -1,28 +1,16 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
 body {
-  background: #303030;
-  color: #fff;
-  font: 20px/150% "Helvetica Neue", "Lucida Grande", Verdana, sans-serif;
+  background: #000000;
+  color: #ffffff;
 }
+.photo {
+  border: solid 5px #fff;
+  height: 190px;
+  width: 190px;
 
-h1 {
-  display: inline-block;
-  height: 60px;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -30px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 
-  strong {
-    display: block;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: lowercase;
-  }
+  -webkit-font-smooth: antialiased;
+  font-smooth: antialiased;
 }

@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html ng-app="zot">
-  <head>
-    <meta charset="utf-8"/>
-    <title>zot</title>
-    <!-- inject:vendor:css -->
-    <!-- endinject -->
-    <!-- inject:css -->
-    <link rel="stylesheet" href="/css/app.css">
-    <!-- endinject -->
-  </head>
-  <body>
-    <h1>
-        thomazot
-        <strong>Front-End Developer.</strong>
-    </h1>
-    <ng-view></ng-view>
-    <!-- inject:vendor:js -->
-    <script src="/angular/angular.js"></script>
-    <script src="/angular-route/angular-route.js"></script>
-    <!-- endinject -->
-    <!-- inject:js -->
-    <script src="/app.js"></script>
-    <!-- endinject -->
-  </body>
+    <head>
+        <meta charset="utf-8"/>
+        <title>thomazot - Thomaz Takashi Oda Toyama</title>
+
+        <meta name="author" content="Thomaz Takashi Oda Toyama - thomazot.com.br" >
+        <meta name="description" content="FrontEnd developer" >
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- inject:vendor:css -->
+        <!-- endinject -->
+        <!-- inject:css -->
+        <link rel="stylesheet" href="/css/app.css">
+        <!-- endinject -->
+    </head>
+    <body>
+        <ng-view></ng-view>
+        <!-- inject:vendor:js -->
+        <script src="/angular/angular.js"></script>
+        <script src="/angular-route/angular-route.js"></script>
+        <!-- endinject -->
+        <!-- inject:js -->
+        <script src="/app.js"></script>
+        <script src="/zot-templates.js"></script>
+        <!-- endinject -->
+    </body>
 </html>
